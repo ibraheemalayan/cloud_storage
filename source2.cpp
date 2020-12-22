@@ -24,7 +24,7 @@ int main() {
     std::string name = "Hehlo";
     char charArr[] = { 'H', 'e', 'l','h', 'o', '\0' };
     
-    std::cout << findLetters( name, charArr, 20);
+    std::cout << findLetters( name, charArr, 6);
 
     return 0;
 }
