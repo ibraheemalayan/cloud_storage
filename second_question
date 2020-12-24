@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main() {
+    
+    int input;
+    
+    std::cout << "Enter a number:";
+    std::cin >> input;
+    
+    if ( input > 0 ){
+        std::cout << "🙂";
+    }
+    
+    if ( input < 0 ){
+        std::cout << ":(";
+    }
+    
+    if ( input == 0 ){
+        std::cout << "zero";
+    }
+
+    return 0;
+}
